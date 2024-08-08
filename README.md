@@ -43,7 +43,6 @@ This repository contains code for the purposes of generating obfuscated data fro
 | `faker_from_file` | obfuscates data from source file, for exporting to CSV or XLSX file, or writing to db |
 | `faker_to_file` | standalone Faker generator that exports to CSV, JSON, or XLSX file |
 | `migrate_and_mask` | obfuscates defined data from source db and writes to destination db |
-|
 | `fake_data` | includes arrays of custom lists that can be used with lambda functions |
 | `faker_samples_all` | includes rendered examples of most Faker provider types |
 
