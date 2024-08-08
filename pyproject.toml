@@ -1,0 +1,25 @@
+[tool.black]
+line-length = 140
+target-version = ['py311']  # Target Python version
+include = '\.pyi?$'  # Include files matching this regex pattern
+exclude = '''(
+    /(
+        \.eggs       # exclude a few common directories in the
+      | \.git
+      | \.hg
+      | \.mypy_cache
+      | \.tox
+      | \.venv
+      | _build
+      | buck-out
+      | build
+      | dist
+    )/
+    | /build/  # exclude the build/ directory
+    | /docs/   # exclude the docs/ directory
+    | \.pyi?$  # and all .pyi files
+  )'''
+skip-string-normalization = false  # Disables string normalization
+
+[tool.ruff]
+line-length = 190
