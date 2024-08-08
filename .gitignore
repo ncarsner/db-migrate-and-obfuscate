@@ -1,3 +1,12 @@
+config.ini
+.editorconfig
+settings.json
+
+# files
+*.csv
+_*.py
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
